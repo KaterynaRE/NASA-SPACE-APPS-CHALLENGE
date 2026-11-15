@@ -1,0 +1,222 @@
+[
+  {
+    "id": "CLPS-IM-1",
+    "missionName": "IM-1 (Odysseus)",
+    "company": "Intuitive Machines",
+    "lander": "Nova-C",
+    "launchYear": 2024,
+    "launchDate": "2024-02-15",
+    "status": "Completed",
+    "landingSite": "Malapert A (South Pole Region)",
+    "lat": -80.13,
+    "lng": 1.44,
+    "rocket": "SpaceX Falcon 9",
+    "payloads": [
+      "LN-1 (Lunar Node 1 Navigation Demonstrator)",
+      "NDL (Navigation Doppler Lidar)",
+      "RFMG (Radio Frequency Mass Gauge)",
+      "ROLSES (Radio Observations of the Lunar Surface)",
+      "SCALPSS (Stereo Cameras for Lunar Plume-Surface Studies)",
+      "LRA (Laser Retroreflector Array)"
+    ],
+    "description": "First commercial soft landing on the Moon under NASA's CLPS initiative, delivering six NASA science and technology payloads to the rugged South Pole highlands near Malapert A.",
+    "ephemeris": {
+      "sunElevation": "8.4° above local horizon (Low-angle polar grazing illumination)",
+      "earthElevation": "9.8° above local horizon (Direct-to-Earth line of sight)",
+      "powerAssessment": " ~144 hrs continuous solar illumination before polar night",
+      "commAssessment": "Direct S-band / X-band link to Earth; minor crater rim masking"
+    },
+    "terrain": {
+      "topography": "Highland crater rim terrain, ~12° local slope (LRO LOLA data)",
+      "horizonMask": "Malapert massif elevates local northern horizon by ~6.5°",
+      "partnerContext": "Supports Artemis South Pole navigation & plume-regolith baseline studies"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  },
+  {
+    "id": "CLPS-BG-1",
+    "missionName": "Ghost Riders in the Sky (BG1)",
+    "company": "Firefly Aerospace",
+    "lander": "Blue Ghost",
+    "launchYear": 2025,
+    "launchDate": "2025-01-15",
+    "status": "Completed",
+    "landingSite": "Mare Crisium (Mons Latreille)",
+    "lat": 18.56,
+    "lng": 61.81,
+    "rocket": "SpaceX Falcon 9",
+    "payloads": [
+      "LISTER (Lunar Instrumentation for Subsurface Thermal Exploration)",
+      "LPV (Lunar PlanetVac)",
+      "NGLR (Next Generation Lunar Retroreflector)",
+      "RAC (Regolith Adherence Characterization)",
+      "LEXI (Lunar Environment Heliospheric X-ray Imager)"
+    ],
+    "description": "Delivered 10 NASA science and technology instruments to Mare Crisium to investigate subsurface heat flow, plume-surface interactions, and Earth's magnetosphere in X-rays.",
+    "ephemeris": {
+      "sunElevation": "42.0° mid-day peak (Full 14-day lunar day illumination cycle)",
+      "earthElevation": "26.4° above western horizon (High-elevation stable link)",
+      "powerAssessment": "Optimal solar array output across 340+ hours of sunlit operations",
+      "commAssessment": "Unobstructed Direct-to-Earth high-rate telemetry across Mare basin"
+    },
+    "terrain": {
+      "topography": "Smooth basaltic mare plain near Mons Latreille, <3° average slope",
+      "horizonMask": "Low <1.5° horizon obstruction; ideal 360° field of view for LEXI imager",
+      "partnerContext": "Calibrates lunar interior thermal models & international laser ranging networks"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  },
+  {
+    "id": "CLPS-IM-2",
+    "missionName": "PRIME-1 (IM-2)",
+    "company": "Intuitive Machines",
+    "lander": "Nova-C (Athena)",
+    "launchYear": 2025,
+    "launchDate": "2025-02-26",
+    "status": "Completed",
+    "landingSite": "Mons Mouton (Lunar South Pole)",
+    "lat": -84.6,
+    "lng": 29.2,
+    "rocket": "SpaceX Falcon 9",
+    "payloads": [
+      "TRIDENT (The Regolith and Ice Drill for Exploring New Terrain)",
+      "MSolo (Mass Spectrometer Observing Lunar Operations)",
+      "LRA (Laser Retroreflector Array)"
+    ],
+    "description": "Polar Resources Ice Mining Experiment-1 targeting the flat-topped Mons Mouton plateau near the Lunar South Pole to drill and analyze subsurface regolith for water ice.",
+    "ephemeris": {
+      "sunElevation": "4.9° grazing polar sun angle (Long shadow regime)",
+      "earthElevation": "5.4° above northern horizon (Libration-dependent visibility)",
+      "powerAssessment": "Vertical solar panels required to capture low-elevation polar sunlight",
+      "commAssessment": "Direct-to-Earth window sensitive to local ridge elevation along azimuth 0°"
+    },
+    "terrain": {
+      "topography": "Elevated polar plateau (~6,000 m altitude), adjacent to cold-trap craters",
+      "horizonMask": "Plateau elevation minimizes horizon blockage compared to surrounding basins",
+      "partnerContext": "In-situ resource utilization (ISRU) precursor for Artemis & CSA lunar surface ops"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  },
+  {
+    "id": "CLPS-AB-2",
+    "missionName": "Griffin Mission 1 (GM1)",
+    "company": "Astrobotic Technology",
+    "lander": "Griffin",
+    "launchYear": 2026,
+    "launchDate": "2026-09-10",
+    "status": "Active",
+    "landingSite": "Nobile Crater Rim (South Pole)",
+    "lat": -85.2,
+    "lng": 53.5,
+    "rocket": "SpaceX Falcon Heavy",
+    "payloads": [
+      "LRA (Laser Retroreflector Array)",
+      "CubeRover Commercial Mobility Payload",
+      "Polar Illumination & Terrain Hazard Sensors"
+    ],
+    "description": "Heavy-class commercial lunar lander mission targeting the illuminated rim of Nobile Crater at the Lunar South Pole to demonstrate precision hazard avoidance and rover deployment.",
+    "ephemeris": {
+      "sunElevation": "3.8° above local horizon (Extreme South Pole illumination constraints)",
+      "earthElevation": "4.7° above local horizon (Requires high-gain directional antenna)",
+      "powerAssessment": "Targeted landing during peak polar summer illumination period",
+      "commAssessment": "Direct-to-Earth link supplemented by orbital relay pass windows"
+    },
+    "terrain": {
+      "topography": "Heavily cratered polar highland ridge bordering permanently shadowed regions",
+      "horizonMask": "Complex local horizon (2°–9° masks) analyzed via LRO Quickmap DEMs",
+      "partnerContext": "Includes commercial & Canadian Space Agency (CSA) micro-rover technology heritage"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  },
+  {
+    "id": "CLPS-CP-12",
+    "missionName": "CP-12 Farside Seismic Suite",
+    "company": "Draper",
+    "lander": "SERIES-2",
+    "launchYear": 2026,
+    "launchDate": "2026-11-20",
+    "status": "Planned",
+    "landingSite": "Schrödinger Basin (Lunar Far Side)",
+    "lat": -75.0,
+    "lng": 132.4,
+    "rocket": "Commercial Launch Vehicle",
+    "payloads": [
+      "FSS (Farside Seismic Suite)",
+      "LITMS (Lunar Interior Temperature and Materials Suite)",
+      "LuSEE-Lite (Lunar Surface Electromagnetics Experiment)"
+    ],
+    "description": "CLPS delivery to the far side of the Moon inside the 320-km wide Schrödinger impact basin to study lunar seismicity, internal heat flow, and electromagnetic properties.",
+    "ephemeris": {
+      "sunElevation": "14.5° peak solar elevation at -75°S latitude",
+      "earthElevation": "-38.2° (Below horizon — Earth is never visible from lunar far side)",
+      "powerAssessment": "Solar arrays + high-capacity thermal/battery survival for lunar night",
+      "commAssessment": "Zero Direct-to-Earth visibility; 100% reliant on lunar relay orbiter"
+    },
+    "terrain": {
+      "topography": "Inner peak-ring floor of Schrödinger impact basin, low boulder density",
+      "horizonMask": "Basin walls & peak ring visible at 3°–5° elevation on Moon Trek 3D view",
+      "partnerContext": "Advances international lunar geophysical network goals shared by NASA & CSA"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  },
+  {
+    "id": "CLPS-CP-22",
+    "missionName": "Blue Ghost Mission 2 (CP-22)",
+    "company": "Firefly Aerospace",
+    "lander": "Blue Ghost + Elytra",
+    "launchYear": 2026,
+    "launchDate": "2026-12-05",
+    "status": "Planned",
+    "landingSite": "Lunar Far Side (Radio-Quiet Zone)",
+    "lat": -45.5,
+    "lng": 150.0,
+    "rocket": "Commercial Launch Vehicle",
+    "payloads": [
+      "LuSEE-Night (Lunar Surface Electromagnetics Experiment - Night)",
+      "Lunar Pathfinder Communications Relay Satellite"
+    ],
+    "description": "Two-stage mission deploying an orbital communications relay satellite and landing the LuSEE-Night radio telescope on the radio-quiet far side of the Moon.",
+    "ephemeris": {
+      "sunElevation": "44.5° maximum solar elevation at mid-southern latitude",
+      "earthElevation": "-54.0° (Earth permanently shielded by lunar bulk for radio silence)",
+      "powerAssessment": "Full 14-day solar charging + heavy battery pack for night radio observations",
+      "commAssessment": "Relayed via Elytra Dark & Lunar Pathfinder satellites in elliptical lunar orbit"
+    },
+    "terrain": {
+      "topography": "Highland plains selected via LRO Quickmap for flat antenna deployment",
+      "horizonMask": "Shielded from terrestrial radio frequency interference (RFI)",
+      "partnerContext": "Demonstrates international relay architecture for far-side & polar exploration"
+    },
+    "links": {
+      "quickmap": "https://quickmap.lroc.asu.edu/",
+      "moonTrek": "https://trek.nasa.gov/moon/",
+      "horizons": "https://ssd.jpl.nasa.gov/horizons/",
+      "csaPortal": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/"
+    }
+  }
+]

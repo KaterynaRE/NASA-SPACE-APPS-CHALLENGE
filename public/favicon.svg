@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="url(#bgGrad)" stroke="#22d3ee" stroke-width="3" stroke-opacity="0.5"/>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  <circle cx="60" cy="60" r="28" fill="url(#moonGrad)" opacity="0.2"/>
+  <path d="M70 34 A28 28 0 1 0 70 86 A22 22 0 1 1 70 34 Z" fill="url(#moonGrad)"/>
+  <circle cx="58" cy="78" r="4.5" fill="#fbbf24"/>
+  <circle cx="58" cy="78" r="9" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="60" cy="60" rx="48" ry="18" fill="none" stroke="#38bdf8" stroke-width="1.8" transform="rotate(-25 60 60)" opacity="0.75"/>
+</svg>
